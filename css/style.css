@@ -1,0 +1,70 @@
+@charset "EUC-KR";
+ul, li { list-style: none; }
+*{
+	margin : 0;
+	padding : 0;
+}
+
+#header {
+	height : 80px;
+	width : 100%;
+}
+
+#sungilmain {
+	float : left;
+	padding : 20px;
+}
+
+#mainul {
+	float : right;
+	padding : 25px;
+}
+#headera {
+	color : gray;
+}
+
+
+
+a {
+	text-decoration : none;
+}
+
+#nav {
+	height : 50px;
+	width : 100%;
+	background-color : #050099;
+}
+
+#nava {
+	color : white;
+}
+
+#nav ul li a {
+	float : left; 
+	margin-left : -1px; 
+	z-index : 1;
+	line-height : 50px;
+	padding : 0 10px;
+}
+
+#section {
+	position: fixed;
+	width: 100%;
+	height: 100%;	
+}
+
+#footer {
+	position: absolute;
+	bottom : 0;
+	height : 40px;
+	width : 100%;
+	background-color : #050099;
+	color : white;
+	text-align : center;
+	line-height : 40px;
+}
+
+#clock {
+	color : white
+}
+
